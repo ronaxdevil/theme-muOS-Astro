@@ -1,0 +1,50 @@
+<svg width="1200" height="400" viewBox="0 0 1200 400" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0b0f1a"/>
+      <stop offset="100%" stop-color="#121826"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="400" fill="url(#bg)"/>
+
+  <!-- Stars -->
+  <g fill="#ffffff" opacity="0.6">
+    <circle cx="120" cy="80" r="2"/>
+    <circle cx="300" cy="140" r="1.5"/>
+    <circle cx="520" cy="60" r="2"/>
+    <circle cx="740" cy="120" r="1.2"/>
+    <circle cx="960" cy="90" r="2"/>
+    <circle cx="1100" cy="200" r="1.5"/>
+  </g>
+
+  <!-- Title -->
+  <text x="80" y="180"
+        font-size="64"
+        fill="#E6F1FF"
+        font-family="Segoe UI, Inter, Arial"
+        font-weight="700">
+    ASTRO
+  </text>
+
+  <!-- Subtitle -->
+  <text x="80" y="240"
+        font-size="26"
+        fill="#9AA4BF"
+        font-family="Segoe UI, Inter, Arial">
+    A Space-Inspired muOS Theme
+  </text>
+
+  <!-- Badges -->
+  <g font-family="Segoe UI, Inter, Arial" font-size="16">
+    <rect x="80" y="270" rx="8" ry="8" width="160" height="36" fill="#1F6FEB"/>
+    <text x="100" y="294" fill="#ffffff">muOS Goose</text>
+
+    <rect x="260" y="270" rx="8" ry="8" width="200" height="36" fill="#2EA043"/>
+    <text x="280" y="294" fill="#ffffff">RG35XX series / RG34XX Series</text>
+
+    <rect x="480" y="270" rx="8" ry="8" width="140" height="36" fill="#8250DF"/>
+    <text x="505" y="294" fill="#ffffff">.muxthm</text>
+  </g>
+</svg>
