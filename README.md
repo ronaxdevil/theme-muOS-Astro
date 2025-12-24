@@ -63,7 +63,7 @@ starfield background designed for long gaming sessions.
     <pre>/MUOS/theme/</pre>
   </li>
   <li>Enable via:
-    <pre>Apps → Aesthetic → Themes</pre>
+    <pre>Config → Customisation → Themes</pre>
   </li>
 </ol>
 
